@@ -38,12 +38,16 @@ end
 def hit?
   # code hit? here
   prompt_user
-  get_user_input
-  
+  if get_user_input="h" do
+    deal_card
+    elsif get_user_input!="s" do
+      invalid_command
+      promptuser
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
