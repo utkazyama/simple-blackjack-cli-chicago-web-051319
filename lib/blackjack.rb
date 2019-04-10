@@ -43,6 +43,7 @@ def hit?
     elsif get_user_input!="s" do
       invalid_command
       prompt_user
+    end
 end
 
 def invalid_command
