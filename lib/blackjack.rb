@@ -42,7 +42,7 @@ def hit?
     deal_card
     elsif get_user_input!="s" do
       invalid_command
-      promptuser
+      prompt_user
 end
 
 def invalid_command
