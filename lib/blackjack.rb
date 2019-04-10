@@ -42,7 +42,6 @@ def hit?
   unless input == "h" || "s"
       invalid_command
       prompt_user
-       input=get_user_input
     end
       if input=="h"
       card_total+=deal_card
